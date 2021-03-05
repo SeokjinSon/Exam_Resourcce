@@ -33,6 +33,8 @@ public class ImageActivity extends AppCompatActivity {
         // 클릭할 때마다 ImageView Image 변경
         img.setImageDrawable(appRes.getDrawable(imgResIds[idx]));
 
+
+        // idx = (idx == (imgResIds.length-1)) ? 0 : ++idx;
         if(idx == (imgResIds.length-1))
             idx=0;
         else
