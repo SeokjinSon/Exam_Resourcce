@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exam_Resourcce</string>
+    <string name="message">"Enter message : "</string>
+    <string name="nothing">NOTHING~!!!</string>
+</resources>
